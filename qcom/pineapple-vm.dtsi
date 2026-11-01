@@ -329,7 +329,7 @@
 	};
 
 	firmware: firmware {
-		qcom_scm: qcom_scm {
+		scm {
 			compatible = "qcom,scm";
 		};
 	};
@@ -597,7 +597,6 @@
 
 	qcom,mem-buf-msgq {
 		compatible = "qcom,mem-buf-msgq";
-		qcom,msgq-names = "trusted_vm";
 	};
 
 	qti,smmu-proxy {

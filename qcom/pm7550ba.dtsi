@@ -64,7 +64,7 @@
 		};
 
 		pm7550ba_amoled: qcom,amoled {
-			compatible = "qcom,amoled-regulator";
+			compatible = "qcom,qpnp-amoled-regulator";
 			#address-cells = <1>;
 			#size-cells = <0>;
 			status = "disabled";
